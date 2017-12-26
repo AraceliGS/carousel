@@ -1,6 +1,6 @@
-/* Inicio de mi código */
+// Inicio de mi código
 $(document).ready(function() {
-  /* Inicializando una variable */
+  // Inicializando una variable
   var target = 0;
   // Elementos
   var $buttons = $('.control');
@@ -26,7 +26,7 @@ $(document).ready(function() {
     target = (target > 8) ? 0 : target;
     showImage(target);
   });
-  /* Función que muestra la imagen deseada */
+  // Función que muestra la imagen deseada 
   var showImage = function(target) {
     var $lastSlide = $('div.active');
     var $slide = $('div[data-slide="' + target + '"]');
