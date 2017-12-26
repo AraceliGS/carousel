@@ -1,0 +1,53 @@
+* {
+  background-color: #5B5858;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Clases a los contenedores de las imágenes */
+
+.carousel-content {
+  display: none;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.carousel-content.active {
+  display: block;
+}
+
+/* Clases a las imágenes */
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 10px solid #D4AF37;
+}
+
+.white-background {
+  background-color: #FFF;
+}
+
+/* Estilos a los elementos de la sección de los botones */
+
+.control {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+}
+
+.previous, .next {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 10px 30px;
+}
+
+.control:hover, .previous:hover, .next:hover {
+  background: #EF770D;
+  border: 1px solid #EF770D;
+  outline: 0;
+}
