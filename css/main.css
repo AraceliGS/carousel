@@ -9,7 +9,7 @@
 .carousel-content {
   display: none;
   width: 45%;
-  margin: 0 auto;
+  margin: 0 auto 1em;
 }
 
 .carousel-content.active {
@@ -37,6 +37,7 @@
   margin: 10px;
   border: 1px solid #FFF;
   border-radius: 50%;
+  outline: 0;
 }
 
 .previous, .next {
@@ -49,5 +50,4 @@
 .control:hover, .previous:hover, .next:hover {
   background: #EF770D;
   border: 1px solid #EF770D;
-  outline: 0;
 }
